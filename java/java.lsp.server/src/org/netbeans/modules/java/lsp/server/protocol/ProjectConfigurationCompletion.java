@@ -44,10 +44,9 @@ import org.openide.util.lookup.ServiceProvider;
  *
  * @author Martin Entlicher
  */
-@ServiceProvider(service = LaunchConfigurationCompletion.class, position = 100)
 public class ProjectConfigurationCompletion implements LaunchConfigurationCompletion {
 
-    private static final String CONFIG_TYPE = "java+";     // NOI18N
+    private static final String CONFIG_TYPE = "jdk";     // NOI18N
 
     @Override
     public CompletableFuture<List<CompletionItem>> configurations(Supplier<CompletableFuture<Project>> projectSupplier) {
@@ -135,5 +134,15 @@ public class ProjectConfigurationCompletion implements LaunchConfigurationComple
             return Collections.emptyList();
         }
         return provider.getConfigurations();
+    }
+
+    @ServiceProvider(service = Factory.class, position = 100)
+    public static final class FactoryImpl implements Factory {
+
+        @Override
+        public LaunchConfigurationCompletion createLaunchConfigurationCompletion(NbCodeClientCapabilities capa) {
+            return new ProjectConfigurationCompletion();
+        }
+
     }
 }

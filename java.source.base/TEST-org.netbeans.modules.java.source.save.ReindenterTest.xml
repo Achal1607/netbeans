@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="atalati-mac" name="org.netbeans.modules.java.source.save.ReindenterTest" skipped="0" tests="302" time="1.193" timestamp="2024-05-27T13:58:31">
+<testsuite errors="0" failures="0" hostname="atalati-mac" name="org.netbeans.modules.java.source.save.ReindenterTest" skipped="0" tests="302" time="1.191" timestamp="2024-05-27T16:33:00">
   <properties>
     <property name="java/api.java.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="php/php.apigen.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/php" />
@@ -77,7 +77,7 @@
     <property name="java.preprocessorbridge.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="native.encoding" value="UTF-8" />
     <property name="test.unit.compile.cp" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/core/core.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/harness/modules/org-netbeans-insane.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-libs-freemarker.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-libs-junit4.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-guards.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-editor-mimelookup.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/platform/org-netbeans-modules-editor-mimelookup/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/extide/modules/org-netbeans-modules-options-java.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-settings-storage.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-libs-javacapi.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-apache-xml-resolver.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-swing-plaf.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-settings-lib.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-autoupdate-services.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-document.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-extexecution.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-api-java.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-xml-catalog.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-ant-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-options-api.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/lib/org-openide-modules.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-search.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-platform-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-filesystems-nb.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-spi-tasklist.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-keyring.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-lib-nbjavac.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-templates.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/lib/org-openide-util-lookup.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-spi-navigator.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-annotations-common.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-spi-java-hints.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-refactoring-api.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/lib/boot.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-api-xml-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-refactoring-java.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-execution.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-classfile.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/lib/org-openide-util.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-spi-quicksearch.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-windows.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-indent.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-preprocessorbridge.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-sampler.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-sourceui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-gototest.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-api-debugger-jpda.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-dialogs.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-projectuiapi.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-errorstripe.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-projectapi.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-gsf-testrunner-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-libraries-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-awt.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-actions.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-source.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-settings.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-io.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-intent.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-loaders.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-nodes.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-swing-outline.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-progress-nb.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-completion.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-io.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-options-editor.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-projectuiapi-base.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-progress.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-codetemplates.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-api-xml.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/lib/org-openide-util-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-fold.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-fold-nbui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-completion.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/core/org-netbeans-libs-asm.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-text.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-jumpto.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/extide/modules/org-apache-tools-ant-module.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-options-keymap.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-indexingbridge.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-diff.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-spi-intern.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-api-java-classpath.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-lexer.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-queries.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-libs-corba-omgapi.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-ant.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-platform.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-indent-project.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-spi-editor-hints.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-lexer.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-core.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-editor.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-file-launcher.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-util.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-editor-base.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-core-multiview.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-code-analysis.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-parsing-indexing.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-settings.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-errorstripe-api.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-project.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-masterfs.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-libs-lucene.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-explorer.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-whitelist.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-lib.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-libraries.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-project-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/core/org-openide-filesystems.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-indent-support.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-scripting.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-extexecution-base.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-swing-tabcontrol.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-gsf-testrunner.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-parsing-lucene.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-source-base.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-api-lsp.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-core-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-lib2.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-bracesmatching.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/core/core-base.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-javahelp.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-parsing-api.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-api-debugger.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-guards.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-j2seplatform.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/harness/modules/org-netbeans-modules-nbjunit.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/ide/org-netbeans-modules-parsing-api/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/ide/org-netbeans-modules-parsing-indexing/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/ide/org-netbeans-modules-parsing-lucene/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-parsing-nb.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/ide/org-netbeans-modules-parsing-nb/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-projectui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-tasklist-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/platform/org-openide-util-lookup/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/platform/org-openide-util-ui/tests.jar" />
-    <property name="test.modules" value="java/java.completion,java/java.hints,java/java.source.base,java/java.lsp.server" />
+    <property name="test.modules" value="java/java.source.base" />
     <property name="html.knockout.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/webcommon" />
     <property name="server.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="selenium2.webclient.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/webcommon" />
@@ -99,6 +99,7 @@
     <property name="platform/spi.actions.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform" />
     <property name="java.sourceui.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="java.vm.specification.version" value="17" />
+    <property name="hudson.JAVA_MAIN_CLASS_52198" value="org.apache.tools.ant.launch.Launcher" />
     <property name="o.apache.commons.lang.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="debugger.jpda.ui.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="enterprise/websvc.utilities.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
@@ -202,7 +203,6 @@
     <property name="platform/api.htmlui.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform" />
     <property name="java/java.editor.lib.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="maven.jaxws.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
-    <property name="hudson.JAVA_MAIN_CLASS_30827" value="org.apache.tools.ant.launch.Launcher" />
     <property name="apisupport.project.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/apisupport" />
     <property name="java/java.api.common.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="languages.manifest.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
@@ -1559,7 +1559,7 @@
     <property name="editor.document.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="cluster.config" value="release" />
     <property name="cordova.platforms.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/webcommon" />
-    <property name="module.build.started.time" value="2024-05-27T16:40:42.008+0530" />
+    <property name="module.build.started.time" value="2024-05-27T20:34:14.240+0530" />
     <property name="ant.file.binaries-default-properties" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/binaries-default-properties.xml" />
     <property name="websvc.saas.codegen.j2ee.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
     <property name="test.config.vanilla-javac.excludes" value="**/CompilationInfoTest.class,**/ElementHandleTest.class,**/ElementsTest.class,**/GeneratorUtilitiesTest.class,**/JavaSourceTest.class,**/TreePathHandleTest.class,**/TreeUtilitiesTest.class,**/gen/EnumTest.class,**/gen/FieldGroupTest.class,**/gen/LabelsTest.class,**/gen/TreeManipulationTest.class,**/parsing/JavacParserTest.class" />
@@ -1573,7 +1573,7 @@
     <property name="autoupdate.pluginimporter.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/nb" />
     <property name="netbinox.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform" />
     <property name="htmlui.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform" />
-    <property name="TSTAMP" value="1640" />
+    <property name="TSTAMP" value="2034" />
     <property name="xsl.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="enterprise/websvc.manager.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
     <property name="php/php.dbgp.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/php" />
@@ -1625,7 +1625,7 @@
     <property name="ide/spi.tasklist.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="html.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="profiler.attach.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/profiler" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.netbeans.modules.java.source.save.ReindenterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/TEST-org.netbeans.modules.java.source.save.ReindenterTest.xml crashfile=/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/junitvmwatcher10478050668947912976.properties propsfile=/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/junit10026167347316568112.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.netbeans.modules.java.source.save.ReindenterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/TEST-org.netbeans.modules.java.source.save.ReindenterTest.xml crashfile=/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/junitvmwatcher8093815052736115462.properties propsfile=/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/junit4945257898902965056.properties" />
     <property name="dlight.nativeexecution.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="editor.kit.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="enterprise/web.primefaces.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
@@ -2149,10 +2149,10 @@
     <property name="enterprise/javaee.specs.support.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
     <property name="test.dist.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist" />
   </properties>
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedClassBody" time="0.679" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideForUpdate" time="0.004" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterSwitchRuleCase" time="0.005" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeClassBody" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedClassBody" time="0.65" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideForUpdate" time="0.003" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterSwitchRuleCase" time="0.004" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeClassBody" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedMethodBody" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeFinallyOnNewLine" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterSimpleAnnotation" time="0.002" />
@@ -2160,78 +2160,78 @@
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideMultilineCommentWithTabIndents" time="0.004" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedDoWhileBlock" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testSpanIndentationTextBlock1" time="0.004" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testSpanIndentationTextBlock2" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyMethodBodyWithMultilineMethodHeader" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testSpanIndentationTextBlock2" time="0.003" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyMethodBodyWithMultilineMethodHeader" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyHalfIndentedStaticBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeAbsolutLabeledStatement" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideAlignedArrayInit" time="0.013" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSwitchRuleCases" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedStaticBlock" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideAlignedArrayInit" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSwitchRuleCases" time="0.022" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedStaticBlock" time="0.003" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideDoWhileCond" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyClassEnd" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyClassEnd" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeWhileBlock" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideSwitchExpr" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedCatchBlock" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSwitchCases" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationTextBlock1" time="0.003" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideAnnotation" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideAnnotation" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAnnotation" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSimpleAnnotationInsideEmptyClass" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAtWrongIndentedMultilineCommentStart" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideSynchronizedExpr" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideRuleCase" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSimpleAnnotationInsideEmptyClass" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAtWrongIndentedMultilineCommentStart" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideSynchronizedExpr" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyBlock" time="0.004" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideRuleCase" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterField" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforArrayInitEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterMethodThows" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideMethodInvocation" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforArrayInitEnd" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterMethodThows" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideMethodInvocation" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideAbsolutLabeledStatement" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSwExprCase" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSwExprRule" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeForEachBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedWhileBlock" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyHalfIndentedBlock" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSwExprRule" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeForEachBlock" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedWhileBlock" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyHalfIndentedBlock" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeMethodBodyEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterAlignedForCond" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAtFileBeginning" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAtFileBeginning" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testSpanIndentation" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedArrayInit" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeTryWithResourceBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideSwExpCase" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentAfterSwitchExprCase" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideEmptyStaticBlockBeforeEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyHalfIndentedBlockEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyRecordEnd" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyBlock" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyHalfIndentedBlockEnd" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyRecordEnd" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeMethodBody" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideLabeledStatement" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideLabeledStatement" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedStaticBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideCase" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideEnum" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterHalfIndentedSwitchExpr" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptySwitch" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeArrayInit" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSwitchRuleCases" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSwitchRuleCases" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAtMultilineCommentStart" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAtMultilineCommentStartWithTabIndents" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedSynchronizedBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeRecodBody" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAtMultilineCommentStartWithTabIndents" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedSynchronizedBlock" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeRecodBody" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterMethodArg" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeCatchBlock" time="0.021" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeCatchOnNewLine" time="0.004" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeCatchBlock" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeCatchOnNewLine" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideWrongIndentedMultilineComment" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeNewClassTreeBody" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAlignedMethodThrows" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeNewClassTreeBody" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAlignedMethodThrows" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideEmptyMethodBodyWithMultilineMethodHeader" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyBlockEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedElseBlock" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedElseBlock" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideMethodBody" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideAbsolutLabeledStatement" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyHalfIndentedArrayInitEnd" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeTryBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyStaticBlockBeforeEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeTryWithResourceBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentBeforeSwitchExprCases" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentBeforeSwitchExprCases" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeLabeledStatement" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideWhileCond" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterCaseStmt" time="0.001" />
@@ -2239,19 +2239,19 @@
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideEmptyMethodBodyBeforeEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAtMultilineCommentStart" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideEmptyHalfIndentedMethodBody" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyMethodBodyEnd" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyMethodBodyEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeElseBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeFinallyBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeBlockEnd" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeBlockEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedNewArrayInit" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeIfBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideIfCond" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterLineComment" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSwitchDefault" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterAlignedMethodInvocationArg" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSwitchRuleEnd" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSwitchDefault" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterAlignedMethodInvocationArg" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSwitchRuleEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeArrayInitEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideSwitchExpr" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideSwitchExpr" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterSwitchCase" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterSwitchExpr" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeElse" time="0.001" />
@@ -2259,25 +2259,25 @@
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideIfCond" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeForEachStmt" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideMultilineComment" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedSwitchEnd" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedSwitchEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSwitchEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyBlock" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideClassImplementsList" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyHalfIndentedStaticBlockBeforeEnd" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyHalfIndentedStaticBlockBeforeEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeElseOnNewLine" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyBlockAfterSwitchRuleCase" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideBlockStatement" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideBlockStatement" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationIndideEmptyArrayInit" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterSwitchExprSwitch" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideMethodBodyBeforeStmt" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideArrayInit" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideMethodBodyBeforeStmt" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideArrayInit" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideEmptyHalfIndentedStaticBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideRecord" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedForBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSwitchRuleDefault" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedForBlock" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSwitchRuleDefault" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideClass" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationIndideAlignedArrayInit" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedIfBlock" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedIfBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideForUpdate" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSwitchRuleCase" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterAlignedClassImplementsList" time="0.001" />
@@ -2285,8 +2285,8 @@
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterCaseStmt" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeMethodBody" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeWhileInDoWhile" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterAlignedAnnotationArg" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedDoWhileBlock" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterAlignedAnnotationArg" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedDoWhileBlock" time="0.0" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeDoWhileStmt" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyHalfIndentedMethodBody" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedClassBody" time="0.001" />
@@ -2297,12 +2297,12 @@
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterSimpleAnnotationInsideEmptyClass" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeDoWhileBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeIfBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterAlignedMethodThrows" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterAlignedMethodThrows" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSwitchRuleDefault" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeCatchBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideMethodInvocation" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideMethodInvocation" time="0.0" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterAnnotation" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeClassBody" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeClassBody" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideEmptyHalfIndentedStaticBlockBeforeEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideTryResources" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyMethodBodyWithMultilineMethodHeaderBeforeEnd" time="0.001" />
@@ -2311,94 +2311,94 @@
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterEqInArrayInit" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideSwExpIllegalCase2" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeWhileStmt" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeForEachStmt" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeForEachStmt" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedWhileBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeStaticBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeElseStmt" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeElseStmt" time="0.0" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEnumEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideWrongIndentedMultilineComment" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyClassEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentBeforeSwitchExprCases" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedNewClassTreeBody" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideSwExpIllegalCase" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeCatch" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeClass" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeCatch" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeClass" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeForBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyMethodBodyEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeFinallyOnNewLine" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyArrayInitEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterField" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideLabeledStatement" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideLabeledStatement" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyHalfIndentedArrayInitEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyMethodBody" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyMethodBody" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedCatchBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyHalfIndentedMethodBodyEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedSwitchRuleEnd" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyBlockAfterSwitchCase" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterLineComment" time="0.004" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeIfStmt" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeCatch" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedSwitchRuleEnd" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyBlockAfterSwitchCase" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterLineComment" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeIfStmt" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeCatch" time="0.0" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeClass" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideSwExpCase2" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideSwExpCase3" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAtMultilineCommentStartWithTabIndents" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedArrayInit" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeDoWhileBlock" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeDoWhileBlock" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeBlockEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyRecordEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAlignedMethodInvocationArg" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeIfStmt" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeArrayInit" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeMethodBodyEnd" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyRecordEnd" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAlignedMethodInvocationArg" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeIfStmt" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeArrayInit" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeMethodBodyEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideSynchronizedExpr" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyArrayInitEnd" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeDoWhileStmt" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAlignedForCond" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAtFileBeginning" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyArrayInitEnd" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeDoWhileStmt" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAlignedForCond" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAtFileBeginning" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideTryResources" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterRuleCaseStmt" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSynchronizedBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyHalfIndentedBlock" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSynchronizedBlock" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyHalfIndentedBlock" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterStatementBeforeElseOnNewLine" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeTryStmt" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterHalfIndentedSwitchExpr" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterEqInArrayInit" time="0.004" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterHalfIndentedSwitchExpr" time="0.002" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterEqInArrayInit" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeRecord" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideCase" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEnum" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideMultilineCommentWithTabIndents" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideMultilineCommentWithTabIndents" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeEmptyBlockEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideForEachExpr" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyBlockAfterSwitchRuleCase" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideMethodBody" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyBlockAfterSwitchRuleCase" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideMethodBody" time="0.011" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideEmptyMethodBody" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeFinally" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeWhileBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideWhileCond" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeCatchOnNewLine" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeCatchOnNewLine" time="0.0" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterAlignedMethodArg" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEnumEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeWhilefStmt" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeWhilefStmt" time="0.004" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedElseBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeWhileOnNewLineInDoWhile" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideRuleCase" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideMethodBodyBeforeStmt" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeStaticBlock" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideMethodBodyBeforeStmt" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeStaticBlock" time="0.0" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideAnnotation" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeElseBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSynchronizedStmt" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeElseBlock" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeSynchronizedStmt" time="0.003" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAtWrongIndentedMultilineCommentStart" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSynchronizedBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedTryBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeForStmt" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAlignedClassImplementsList" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAlignedClassImplementsList" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedNewArrayInit" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyStaticBlock" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyStaticBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterForVar" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyHalfIndentedClassEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideEmptyStaticBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSwitchCase" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSwitchExpr" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSwitchCase" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSwitchExpr" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeNewArrayInit" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterSimpleAnnotation" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeNewClassTreeBody" time="0.001" />
@@ -2406,58 +2406,58 @@
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideDoWhileCond" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterMethod" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSwitchCases" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeLabeledStatement" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeElse" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterForVar" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedSwitchEnd" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterMethodThrows" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeLabeledStatement" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeElse" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterForVar" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedSwitchEnd" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterMethodThrows" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterStatementBeforeElseOnNewLine" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSwitchDefault" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSwitchRuleEnd" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSwitchDefault" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSwitchRuleEnd" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideEmptyBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationIndideArrayInit" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationIndideArrayInit" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeTryStmt" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeAbsolutLabeledStatement" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedSynchronizedBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationAfterRuleCaseStmt" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterMethodArg" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterMethodArg" time="0.0" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedRecordBody" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedTryBlock" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideEmptyArrayInit" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedTryBlock" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideEmptyArrayInit" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyHalfIndentedRecordEnd" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeWhileOnNewLineInDoWhile" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeWhileOnNewLineInDoWhile" time="0.0" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideClassImplementsList" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeElseStmt" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyHalfIndentedMethodBodyEnd" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeElseStmt" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyHalfIndentedMethodBodyEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterMethod" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeForBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideBlockStatement" time="0.0" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSwitchEnd" time="0.023" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideBlockStatement" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeSwitchEnd" time="0.024" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeFinally" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideForEachExpr" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeElseOnNewLine" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeTryBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAlignedMethodArg" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedSwitchRuleEnd" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedSwitchRuleEnd" time="0.002" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationInsideEmptyMethodBodyBeforeEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedForEachBlock" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationInsideMultilineComment" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeEmptyBlockAfterSwitchCase" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationIndideEmptyMethodBodyWithMultilineMethodHeaderBeforeEnd" time="0.001" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeHalfIndentedIfBlock" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeNewArrayInit" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeForStmt" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeWhileInDoWhile" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testNewLineIndentationBeforeNewArrayInit" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeForStmt" time="0.0" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeWhileInDoWhile" time="0.0" />
   <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationAfterAlignedAnnotationArg" time="0.001" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedNewClassTreeBody" time="0.002" />
-  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeForEachBlock" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeHalfIndentedNewClassTreeBody" time="0.001" />
+  <testcase classname="org.netbeans.modules.java.source.save.ReindenterTest" name="testLineIndentationBeforeForEachBlock" time="0.0" />
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[May 27, 2024 7:28:32 PM org.netbeans.modules.settings.RecognizeInstanceObjects$MSL <clinit>
+  <system-err><![CDATA[May 27, 2024 10:03:01 PM org.netbeans.modules.settings.RecognizeInstanceObjects$MSL <clinit>
 WARNING: Not listening on module system
-May 27, 2024 7:28:32 PM org.openide.filesystems.Ordering getOrder
+May 27, 2024 10:03:01 PM org.openide.filesystems.Ordering getOrder
 WARNING: Not all children in / marked with the position attribute: [org-netbeans-modules-refactoring-java-ui-HighlightsLayerFactory.instance, language.instance, org-netbeans-modules-java-editor-semantic-HighlightsLayerFactoryImpl.instance, org-netbeans-modules-java-editor-semantic-SemanticHighlighterFactory.instance, org-netbeans-modules-java-editor-semantic-MarkOccurrencesHighlighterFactory.instance, org-netbeans-modules-java-editor-overridden-ComputeAnnotations$FactoryImpl.instance, EditorKit.instance, Reformatter.instance, Reindenter.instance, SourcePathCheck.instance, AutoIndenter.instance, org-netbeans-modules-java-guards-JavaGuardedSections.instance, org-netbeans-modules-java-hints-spiimpl-JavaHintsPositionRefresher.instance, org-netbeans-modules-java-hints-spiimpl-hints-HintsTask$HintPositionRefresherHelper.instance, org-netbeans-modules-java-hints-spiimpl-hints-HintsTask$SuggestionsPositionRefresherHelper.instance, org-netbeans-modules-java-hints-spiimpl-options-HintsSettings$GlobalSettingsProvider.instance, org-netbeans-modules-refactoring-java-callhierarchy-LspCallHierarchyProvider.instance, org-netbeans-modules-refactoring-java-plugins-InstantRefactoringPerformer$UndoableWrapper.instance, org-netbeans-modules-refactoring-java-plugins-InstantRefactoringPerformer$RenameDeletedTextInterceptor$Factory.instance, org-netbeans-modules-editor-java-CamelCaseOperations$JavaCamelCaseInterceptor$JavaFactory.instance, org-netbeans-modules-editor-java-JavaKit$JavaTypedBreakInterceptor$JavaFactory.instance, org-netbeans-modules-java-editor-codegen-RemoveSurroundingCodePanel$UnwrapCodeHighlightsLayerFactory.instance, org-netbeans-modules-java-editor-whitelist-WhiteListCheckTask$Factory.instance, org-netbeans-modules-editor-java-JavaKit$JavaDeletedTextInterceptor$Factory.instance, org-netbeans-modules-editor-java-JavaKit$JavaTypedTextInterceptor$Factory.instance, org-netbeans-modules-java-editor-fold-ResourceStringFoldProvider.instance, org-netbeans-modules-java-editor-rename-InstantRenamePerformer$RenameDeletedTextInterceptor$Factory.instance, org-netbeans-modules-whitelist-index-WhiteListIndexerPlugin$Factory.instance, org-netbeans-modules-java-source-indexing-JavaCustomIndexer$Factory-register.instance, org-netbeans-modules-java-source-parsing-JavacParserFactory.instance, org-netbeans-modules-java-source-parsing-VanillaPartialReparser$VerifyPartialReparse$FactoryImpl.instance, org-netbeans-modules-editor-impl-highlighting-HLFactory.instance, org-netbeans-lib-editor-hyperlink-HyperlinkOperation$HighlightFactoryImpl.instance, org-netbeans-modules-editor-url-HighlightURLs$FactoryImpl.instance, org-netbeans-lib-editor-codetemplates-textsync-TextRegionManager$Highlighting$HLFactory.instance, org-netbeans-modules-jumpto-file-FileIndexer$Factory.instance, org-netbeans-modules-diff-builtin-visualizer-editable-DiffHighlightsLayerFactory.instance, org-netbeans-modules-merge-builtin-visualizer-MergeHighlightsLayerFactory.instance, org-netbeans-modules-editor-hints-HighlightsLayerFactoryImpl.instance, COSSynchronizingIndexer.instance, org-netbeans-modules-editor-lib2-highlighting-Factory.instance, org-netbeans-modules-editor-bracesmatching-BracesMatchHighlighting$Factory.instance, org-netbeans-modules-tasklist-impl-TaskIndexerFactory.instance, org-netbeans-modules-editor-impl-DocumentFactoryImpl.instance, org-netbeans-modules-refactoring-spi-impl-UndoableWrapper.instance, org-netbeans-modules-gsf-testrunner-ui-TestMethodFinderImpl$Factory.instance, org-netbeans-modules-editor-fold-ui-FoldingEditorSupport$F.instance, org-netbeans-modules-editor-hints-lsp-HintsDiagnosticsProvider.instance, org-netbeans-modules-java-source-indexing-JavaBinaryIndexer$Factory-register.instance], but some are: [org-netbeans-modules-editor-java-JavaStructureProvider.instance, org-netbeans-modules-java-file-launcher-indexer-CompilerOptionsIndexer$FactoryImpl.instance]
-May 27, 2024 7:28:32 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
-INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:javax.swing.text.PlainDocument@4863633
+May 27, 2024 10:03:01 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
+INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:javax.swing.text.PlainDocument@37bd5b73
 java.lang.Exception
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:387)
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.tokenSequence(TokenHierarchyOperation.java:411)

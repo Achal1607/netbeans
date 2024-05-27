@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="atalati-mac" name="org.netbeans.api.java.source.GeneratorUtilitiesTest" skipped="0" tests="75" time="8.408" timestamp="2024-05-27T11:11:02">
+<testsuite errors="0" failures="0" hostname="atalati-mac" name="org.netbeans.api.java.source.GeneratorUtilitiesTest" skipped="0" tests="75" time="11.016" timestamp="2024-05-27T15:04:36">
   <properties>
     <property name="java/api.java.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="php/php.apigen.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/php" />
@@ -77,7 +77,7 @@
     <property name="java.preprocessorbridge.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="native.encoding" value="UTF-8" />
     <property name="test.unit.compile.cp" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/core/core.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/harness/modules/org-netbeans-insane.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-libs-freemarker.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-libs-junit4.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-guards.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-editor-mimelookup.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/platform/org-netbeans-modules-editor-mimelookup/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/extide/modules/org-netbeans-modules-options-java.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-settings-storage.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-libs-javacapi.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-apache-xml-resolver.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-swing-plaf.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-settings-lib.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-autoupdate-services.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-document.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-extexecution.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-api-java.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-xml-catalog.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-ant-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-options-api.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/lib/org-openide-modules.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-search.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-platform-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-filesystems-nb.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-spi-tasklist.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-keyring.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-lib-nbjavac.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-templates.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/lib/org-openide-util-lookup.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-spi-navigator.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-annotations-common.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-spi-java-hints.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-refactoring-api.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/lib/boot.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-api-xml-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-refactoring-java.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-execution.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-classfile.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/lib/org-openide-util.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-spi-quicksearch.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-windows.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-indent.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-preprocessorbridge.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-sampler.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-sourceui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-gototest.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-api-debugger-jpda.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-dialogs.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-projectuiapi.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-errorstripe.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-projectapi.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-gsf-testrunner-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-libraries-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-awt.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-actions.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-source.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-settings.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-io.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-intent.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-loaders.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-nodes.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-swing-outline.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-progress-nb.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-completion.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-io.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-options-editor.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-projectuiapi-base.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-progress.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-codetemplates.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-api-xml.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/lib/org-openide-util-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-fold.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-fold-nbui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-completion.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/core/org-netbeans-libs-asm.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-text.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-jumpto.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/extide/modules/org-apache-tools-ant-module.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-options-keymap.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-indexingbridge.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-diff.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-spi-intern.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-api-java-classpath.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-lexer.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-queries.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-libs-corba-omgapi.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-ant.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-platform.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-indent-project.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-spi-editor-hints.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-lexer.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-core.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-editor.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-file-launcher.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-util.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-editor-base.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-core-multiview.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-code-analysis.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-parsing-indexing.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-settings.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-errorstripe-api.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-project.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-masterfs.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-libs-lucene.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-openide-explorer.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-whitelist.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-lib.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-project-libraries.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-project-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/core/org-openide-filesystems.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-indent-support.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-api-scripting.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-extexecution-base.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-swing-tabcontrol.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-gsf-testrunner.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-parsing-lucene.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-source-base.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-api-lsp.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-core-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-lib2.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-editor-bracesmatching.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/core/core-base.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform/modules/org-netbeans-modules-javahelp.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-parsing-api.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-api-debugger.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-guards.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java/modules/org-netbeans-modules-java-j2seplatform.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/harness/modules/org-netbeans-modules-nbjunit.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/ide/org-netbeans-modules-parsing-api/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/ide/org-netbeans-modules-parsing-indexing/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/ide/org-netbeans-modules-parsing-lucene/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-parsing-nb.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/ide/org-netbeans-modules-parsing-nb/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-projectui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide/modules/org-netbeans-modules-tasklist-ui.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/platform/org-openide-util-lookup/tests.jar:/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist/unit/platform/org-openide-util-ui/tests.jar" />
-    <property name="test.modules" value="java/java.completion,java/java.hints,java/java.source.base,java/java.lsp.server" />
+    <property name="test.modules" value="java/java.source.base" />
     <property name="html.knockout.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/webcommon" />
     <property name="server.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="selenium2.webclient.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/webcommon" />
@@ -99,6 +99,7 @@
     <property name="platform/spi.actions.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform" />
     <property name="java.sourceui.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="java.vm.specification.version" value="17" />
+    <property name="hudson.JAVA_MAIN_CLASS_52198" value="org.apache.tools.ant.launch.Launcher" />
     <property name="debugger.jpda.ui.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="o.apache.commons.lang.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="enterprise/websvc.utilities.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
@@ -202,7 +203,6 @@
     <property name="platform/api.htmlui.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform" />
     <property name="java/java.editor.lib.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="maven.jaxws.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
-    <property name="hudson.JAVA_MAIN_CLASS_30827" value="org.apache.tools.ant.launch.Launcher" />
     <property name="apisupport.project.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/apisupport" />
     <property name="java/java.api.common.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/java" />
     <property name="languages.manifest.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
@@ -1558,7 +1558,7 @@
     <property name="editor.document.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="cluster.config" value="release" />
     <property name="cordova.platforms.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/webcommon" />
-    <property name="module.build.started.time" value="2024-05-27T16:40:42.008+0530" />
+    <property name="module.build.started.time" value="2024-05-27T20:34:14.240+0530" />
     <property name="ant.file.binaries-default-properties" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/binaries-default-properties.xml" />
     <property name="websvc.saas.codegen.j2ee.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
     <property name="test.config.vanilla-javac.excludes" value="**/CompilationInfoTest.class,**/ElementHandleTest.class,**/ElementsTest.class,**/GeneratorUtilitiesTest.class,**/JavaSourceTest.class,**/TreePathHandleTest.class,**/TreeUtilitiesTest.class,**/gen/EnumTest.class,**/gen/FieldGroupTest.class,**/gen/LabelsTest.class,**/gen/TreeManipulationTest.class,**/parsing/JavacParserTest.class" />
@@ -1572,7 +1572,7 @@
     <property name="netbinox.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform" />
     <property name="autoupdate.pluginimporter.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/nb" />
     <property name="htmlui.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/platform" />
-    <property name="TSTAMP" value="1640" />
+    <property name="TSTAMP" value="2034" />
     <property name="xsl.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="enterprise/websvc.manager.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
     <property name="php/php.dbgp.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/php" />
@@ -1624,7 +1624,7 @@
     <property name="ide/spi.tasklist.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="html.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="profiler.attach.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/profiler" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.netbeans.api.java.source.GeneratorUtilitiesTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/TEST-org.netbeans.api.java.source.GeneratorUtilitiesTest.xml crashfile=/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/junitvmwatcher12688540146817543944.properties propsfile=/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/junit14747871190069127638.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.netbeans.api.java.source.GeneratorUtilitiesTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/TEST-org.netbeans.api.java.source.GeneratorUtilitiesTest.xml crashfile=/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/junitvmwatcher16565492853525818642.properties propsfile=/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/java/java.source.base/build/test/unit/results/junit4174372872110880976.properties" />
     <property name="editor.kit.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="dlight.nativeexecution.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/ide" />
     <property name="enterprise/web.primefaces.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
@@ -2148,98 +2148,102 @@
     <property name="enterprise/javaee.specs.support.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/netbeans/enterprise" />
     <property name="test.dist.dir" value="/Users/atalati/vscode-extension/main-repo/javavscode/netbeans/nbbuild/build/testdist" />
   </properties>
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports1" time="0.898" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports2" time="0.188" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports3" time="0.099" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports4" time="0.094" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports5" time="0.112" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports6" time="0.096" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports7" time="0.102" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports8" time="0.09" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports9" time="0.147" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertStaticMethods" time="0.125" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertMethods" time="0.092" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testStaticSetter" time="0.103" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testCreateMethod" time="0.105" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testStaticBooleanGetter" time="0.084" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertStaticFields" time="0.084" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideMethods1" time="0.179" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideMethods2" time="0.092" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideMethods3" time="0.1" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideMethods4" time="0.092" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideMethods5" time="0.095" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testStaticBooleanSetter" time="0.08" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImportsIncrementallyWithStatic_JIRA3019" time="0.051" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideAnnotation1" time="0.098" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideAnnotation2" time="0.12" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideAnnotation3" time="0.091" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor100341" time="0.097" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor197192" time="0.083" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValueCompilationUnit" time="0.082" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor1" time="0.09" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor2" time="0.093" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testBooleanGetter" time="0.104" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testBooleanSetter" time="0.081" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods1" time="0.085" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods2" time="0.085" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods3" time="0.119" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods4" time="0.088" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods5" time="0.105" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods6" time="0.098" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods7" time="0.099" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods8" time="0.11" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods9" time="0.125" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethodsa" time="0.093" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethodsb" time="0.111" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethodsc" time="0.124" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethodsd" time="0.088" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertConstructors" time="0.086" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testGetterNamingConvention0" time="0.09" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testGetterNamingConvention1" time="0.084" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertStaticNestedClasses" time="0.102" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertNestedClasses" time="0.088" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationToInterface213360" time="0.089" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValue1" time="0.087" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValue2" time="0.109" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValue3" time="0.099" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValue4" time="0.086" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValue5" time="0.088" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testCommentsCopyingNull" time="0.078" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImportFQNs114623" time="0.103" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImportFQNs175735" time="0.264" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports10" time="0.092" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports11" time="0.088" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports12" time="0.099" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports13" time="0.081" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports9a" time="0.099" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="test232199a" time="0.092" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="test232199b" time="0.099" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="test232199c" time="0.097" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="test232199d" time="0.135" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor134673a" time="0.093" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor134673b" time="0.088" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testGetter" time="0.1" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testimportFQNs126796" time="0.083" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertFields" time="0.091" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testSetter" time="0.088" />
-  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testStaticGetter" time="0.099" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports1" time="0.929" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports2" time="0.244" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports3" time="0.144" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports4" time="0.128" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports5" time="0.145" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports6" time="0.126" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports7" time="0.122" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports8" time="0.166" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports9" time="0.13" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertStaticMethods" time="0.156" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertMethods" time="0.131" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testStaticSetter" time="0.137" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testCreateMethod" time="0.145" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testStaticBooleanGetter" time="0.122" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertStaticFields" time="0.126" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideMethods1" time="0.232" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideMethods2" time="0.13" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideMethods3" time="0.125" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideMethods4" time="0.129" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideMethods5" time="0.127" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testStaticBooleanSetter" time="0.116" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImportsIncrementallyWithStatic_JIRA3019" time="0.065" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideAnnotation1" time="0.136" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideAnnotation2" time="0.13" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testOverrideAnnotation3" time="0.121" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor100341" time="0.13" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor197192" time="0.121" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValueCompilationUnit" time="0.132" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor1" time="0.116" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor2" time="0.123" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testBooleanGetter" time="0.119" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testBooleanSetter" time="0.116" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods1" time="0.133" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods2" time="0.121" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods3" time="0.135" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods4" time="0.12" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods5" time="0.158" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods6" time="0.146" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods7" time="0.137" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods8" time="0.125" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethods9" time="0.213" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethodsa" time="0.147" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethodsb" time="0.145" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethodsc" time="0.144" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImplementAllAbstractMethodsd" time="0.126" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertConstructors" time="0.12" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testGetterNamingConvention0" time="0.132" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testGetterNamingConvention1" time="0.12" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertStaticNestedClasses" time="0.12" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertNestedClasses" time="0.121" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationToInterface213360" time="0.135" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValue1" time="0.123" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValue2" time="0.121" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValue3" time="0.123" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValue4" time="0.122" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddAnnotationAttributeValue5" time="0.133" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testCommentsCopyingNull" time="0.116" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImportFQNs114623" time="0.14" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testImportFQNs175735" time="0.305" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports10" time="0.138" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports11" time="0.123" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports12" time="0.121" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports13" time="0.116" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testAddImports9a" time="0.149" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="test232199a" time="0.134" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="test232199b" time="0.131" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="test232199c" time="0.127" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="test232199d" time="0.137" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor134673a" time="0.128" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testConstructor134673b" time="0.125" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testGetter" time="0.126" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testimportFQNs126796" time="0.13" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testInsertFields" time="0.128" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testSetter" time="0.126" />
+  <testcase classname="org.netbeans.api.java.source.GeneratorUtilitiesTest" name="testStaticGetter" time="0.122" />
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[May 27, 2024 4:41:02 PM org.netbeans.modules.settings.RecognizeInstanceObjects$MSL <clinit>
+  <system-err><![CDATA[May 27, 2024 8:34:36 PM org.netbeans.modules.settings.RecognizeInstanceObjects$MSL <clinit>
 WARNING: Not listening on module system
-May 27, 2024 4:41:02 PM org.netbeans.modules.masterfs.watcher.Watcher getNotifierForPlatform
+May 27, 2024 8:34:36 PM org.netbeans.modules.masterfs.watcher.Watcher getNotifierForPlatform
 INFO: Native file watcher is disabled
-May 27, 2024 4:41:02 PM org.openide.filesystems.Ordering getOrder
+May 27, 2024 8:34:36 PM org.openide.filesystems.Ordering getOrder
 WARNING: Not all children in / marked with the position attribute: [org-netbeans-modules-java-hints-spiimpl-JavaHintsPositionRefresher.instance, org-netbeans-modules-java-hints-spiimpl-hints-HintsTask$HintPositionRefresherHelper.instance, org-netbeans-modules-java-hints-spiimpl-hints-HintsTask$SuggestionsPositionRefresherHelper.instance, org-netbeans-modules-java-hints-spiimpl-options-HintsSettings$GlobalSettingsProvider.instance, org-netbeans-modules-refactoring-java-callhierarchy-LspCallHierarchyProvider.instance, org-netbeans-modules-refactoring-java-plugins-InstantRefactoringPerformer$UndoableWrapper.instance, org-netbeans-modules-refactoring-java-plugins-InstantRefactoringPerformer$RenameDeletedTextInterceptor$Factory.instance, org-netbeans-modules-editor-java-CamelCaseOperations$JavaCamelCaseInterceptor$JavaFactory.instance, org-netbeans-modules-editor-java-JavaKit$JavaTypedBreakInterceptor$JavaFactory.instance, org-netbeans-modules-java-editor-codegen-RemoveSurroundingCodePanel$UnwrapCodeHighlightsLayerFactory.instance, org-netbeans-modules-java-editor-whitelist-WhiteListCheckTask$Factory.instance, org-netbeans-modules-editor-java-JavaKit$JavaDeletedTextInterceptor$Factory.instance, org-netbeans-modules-editor-java-JavaKit$JavaTypedTextInterceptor$Factory.instance, org-netbeans-modules-java-editor-fold-ResourceStringFoldProvider.instance, org-netbeans-modules-java-editor-rename-InstantRenamePerformer$RenameDeletedTextInterceptor$Factory.instance, org-netbeans-modules-whitelist-index-WhiteListIndexerPlugin$Factory.instance, org-netbeans-modules-java-source-indexing-JavaCustomIndexer$Factory-register.instance, org-netbeans-modules-java-source-parsing-JavacParserFactory.instance, org-netbeans-modules-java-source-parsing-VanillaPartialReparser$VerifyPartialReparse$FactoryImpl.instance, org-netbeans-modules-editor-impl-DocumentFactoryImpl.instance, org-netbeans-modules-editor-url-HighlightURLs$FactoryImpl.instance, org-netbeans-modules-refactoring-spi-impl-UndoableWrapper.instance, org-netbeans-modules-gsf-testrunner-ui-TestMethodFinderImpl$Factory.instance, org-netbeans-modules-editor-fold-ui-FoldingEditorSupport$F.instance, org-netbeans-modules-editor-hints-lsp-HintsDiagnosticsProvider.instance, org-netbeans-modules-java-source-indexing-JavaBinaryIndexer$Factory-register.instance], but some are: [org-netbeans-modules-editor-java-JavaStructureProvider.instance, org-netbeans-modules-java-file-launcher-indexer-CompilerOptionsIndexer$FactoryImpl.instance]
-May 27, 2024 4:41:03 PM org.openide.filesystems.Ordering getOrder
+May 27, 2024 8:34:37 PM org.openide.filesystems.Ordering getOrder
 WARNING: Not all children in / marked with the position attribute: [org-netbeans-modules-java-hints-spiimpl-JavaHintsPositionRefresher.instance, org-netbeans-modules-java-hints-spiimpl-hints-HintsTask$HintPositionRefresherHelper.instance, org-netbeans-modules-java-hints-spiimpl-hints-HintsTask$SuggestionsPositionRefresherHelper.instance, org-netbeans-modules-java-hints-spiimpl-options-HintsSettings$GlobalSettingsProvider.instance, org-netbeans-modules-refactoring-java-callhierarchy-LspCallHierarchyProvider.instance, org-netbeans-modules-refactoring-java-plugins-InstantRefactoringPerformer$UndoableWrapper.instance, org-netbeans-modules-refactoring-java-plugins-InstantRefactoringPerformer$RenameDeletedTextInterceptor$Factory.instance, org-netbeans-modules-editor-java-CamelCaseOperations$JavaCamelCaseInterceptor$JavaFactory.instance, org-netbeans-modules-editor-java-JavaKit$JavaTypedBreakInterceptor$JavaFactory.instance, org-netbeans-modules-java-editor-codegen-RemoveSurroundingCodePanel$UnwrapCodeHighlightsLayerFactory.instance, org-netbeans-modules-java-editor-whitelist-WhiteListCheckTask$Factory.instance, org-netbeans-modules-editor-java-JavaKit$JavaDeletedTextInterceptor$Factory.instance, org-netbeans-modules-editor-java-JavaKit$JavaTypedTextInterceptor$Factory.instance, org-netbeans-modules-java-editor-fold-ResourceStringFoldProvider.instance, org-netbeans-modules-java-editor-rename-InstantRenamePerformer$RenameDeletedTextInterceptor$Factory.instance, org-netbeans-modules-whitelist-index-WhiteListIndexerPlugin$Factory.instance, org-netbeans-modules-java-source-indexing-JavaCustomIndexer$Factory-register.instance, org-netbeans-modules-java-source-parsing-JavacParserFactory.instance, org-netbeans-modules-java-source-parsing-VanillaPartialReparser$VerifyPartialReparse$FactoryImpl.instance, org-netbeans-modules-editor-impl-DocumentFactoryImpl.instance, org-netbeans-modules-editor-url-HighlightURLs$FactoryImpl.instance, org-netbeans-modules-refactoring-spi-impl-UndoableWrapper.instance, org-netbeans-modules-gsf-testrunner-ui-TestMethodFinderImpl$Factory.instance, org-netbeans-modules-editor-fold-ui-FoldingEditorSupport$F.instance, org-netbeans-modules-editor-hints-lsp-HintsDiagnosticsProvider.instance, org-netbeans-modules-java-source-indexing-JavaBinaryIndexer$Factory-register.instance], but some are: [org-netbeans-modules-editor-java-JavaStructureProvider.instance, org-netbeans-modules-java-file-launcher-indexer-CompilerOptionsIndexer$FactoryImpl.instance]
-May 27, 2024 4:41:04 PM org.openide.filesystems.Ordering getOrder
-WARNING: Not all children in / marked with the position attribute: [org-netbeans-modules-java-hints-spiimpl-JavaHintsPositionRefresher.instance, org-netbeans-modules-java-hints-spiimpl-hints-HintsTask$HintPositionRefresherHelper.instance, org-netbeans-modules-java-hints-spiimpl-hints-HintsTask$SuggestionsPositionRefresherHelper.instance, org-netbeans-modules-java-hints-spiimpl-options-HintsSettings$GlobalSettingsProvider.instance, org-netbeans-modules-refactoring-java-callhierarchy-LspCallHierarchyProvider.instance, org-netbeans-modules-refactoring-java-plugins-InstantRefactoringPerformer$UndoableWrapper.instance, org-netbeans-modules-refactoring-java-plugins-InstantRefactoringPerformer$RenameDeletedTextInterceptor$Factory.instance, org-netbeans-modules-editor-java-CamelCaseOperations$JavaCamelCaseInterceptor$JavaFactory.instance, org-netbeans-modules-editor-java-JavaKit$JavaTypedBreakInterceptor$JavaFactory.instance, org-netbeans-modules-java-editor-codegen-RemoveSurroundingCodePanel$UnwrapCodeHighlightsLayerFactory.instance, org-netbeans-modules-java-editor-whitelist-WhiteListCheckTask$Factory.instance, org-netbeans-modules-editor-java-JavaKit$JavaDeletedTextInterceptor$Factory.instance, org-netbeans-modules-editor-java-JavaKit$JavaTypedTextInterceptor$Factory.instance, org-netbeans-modules-java-editor-fold-ResourceStringFoldProvider.instance, org-netbeans-modules-java-editor-rename-InstantRenamePerformer$RenameDeletedTextInterceptor$Factory.instance, org-netbeans-modules-whitelist-index-WhiteListIndexerPlugin$Factory.instance, org-netbeans-modules-java-source-indexing-JavaCustomIndexer$Factory-register.instance, org-netbeans-modules-java-source-parsing-JavacParserFactory.instance, org-netbeans-modules-java-source-parsing-VanillaPartialReparser$VerifyPartialReparse$FactoryImpl.instance, org-netbeans-modules-editor-impl-DocumentFactoryImpl.instance, org-netbeans-modules-editor-url-HighlightURLs$FactoryImpl.instance, org-netbeans-modules-refactoring-spi-impl-UndoableWrapper.instance, org-netbeans-modules-gsf-testrunner-ui-TestMethodFinderImpl$Factory.instance, org-netbeans-modules-editor-fold-ui-FoldingEditorSupport$F.instance, org-netbeans-modules-editor-hints-lsp-HintsDiagnosticsProvider.instance, org-netbeans-modules-java-source-indexing-JavaBinaryIndexer$Factory-register.instance], but some are: [org-netbeans-modules-editor-java-JavaStructureProvider.instance, org-netbeans-modules-java-file-launcher-indexer-CompilerOptionsIndexer$FactoryImpl.instance]
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+May 27, 2024 8:34:38 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
 INFO: Indexing started, time from last indexing 0 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:38 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 1 ms.
-May 27, 2024 4:41:04 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
-INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@67d1dbb8
+May 27, 2024 8:34:38 PM org.openide.filesystems.Ordering getOrder
+WARNING: Not all children in / marked with the position attribute: [org-netbeans-modules-java-hints-spiimpl-JavaHintsPositionRefresher.instance, org-netbeans-modules-java-hints-spiimpl-hints-HintsTask$HintPositionRefresherHelper.instance, org-netbeans-modules-java-hints-spiimpl-hints-HintsTask$SuggestionsPositionRefresherHelper.instance, org-netbeans-modules-java-hints-spiimpl-options-HintsSettings$GlobalSettingsProvider.instance, org-netbeans-modules-refactoring-java-callhierarchy-LspCallHierarchyProvider.instance, org-netbeans-modules-refactoring-java-plugins-InstantRefactoringPerformer$UndoableWrapper.instance, org-netbeans-modules-refactoring-java-plugins-InstantRefactoringPerformer$RenameDeletedTextInterceptor$Factory.instance, org-netbeans-modules-editor-java-CamelCaseOperations$JavaCamelCaseInterceptor$JavaFactory.instance, org-netbeans-modules-editor-java-JavaKit$JavaTypedBreakInterceptor$JavaFactory.instance, org-netbeans-modules-java-editor-codegen-RemoveSurroundingCodePanel$UnwrapCodeHighlightsLayerFactory.instance, org-netbeans-modules-java-editor-whitelist-WhiteListCheckTask$Factory.instance, org-netbeans-modules-editor-java-JavaKit$JavaDeletedTextInterceptor$Factory.instance, org-netbeans-modules-editor-java-JavaKit$JavaTypedTextInterceptor$Factory.instance, org-netbeans-modules-java-editor-fold-ResourceStringFoldProvider.instance, org-netbeans-modules-java-editor-rename-InstantRenamePerformer$RenameDeletedTextInterceptor$Factory.instance, org-netbeans-modules-whitelist-index-WhiteListIndexerPlugin$Factory.instance, org-netbeans-modules-java-source-indexing-JavaCustomIndexer$Factory-register.instance, org-netbeans-modules-java-source-parsing-JavacParserFactory.instance, org-netbeans-modules-java-source-parsing-VanillaPartialReparser$VerifyPartialReparse$FactoryImpl.instance, org-netbeans-modules-editor-impl-DocumentFactoryImpl.instance, org-netbeans-modules-editor-url-HighlightURLs$FactoryImpl.instance, org-netbeans-modules-refactoring-spi-impl-UndoableWrapper.instance, org-netbeans-modules-gsf-testrunner-ui-TestMethodFinderImpl$Factory.instance, org-netbeans-modules-editor-fold-ui-FoldingEditorSupport$F.instance, org-netbeans-modules-editor-hints-lsp-HintsDiagnosticsProvider.instance, org-netbeans-modules-java-source-indexing-JavaBinaryIndexer$Factory-register.instance], but some are: [org-netbeans-modules-editor-java-JavaStructureProvider.instance, org-netbeans-modules-java-file-launcher-indexer-CompilerOptionsIndexer$FactoryImpl.instance]
+May 27, 2024 8:34:38 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 251 ms.
+May 27, 2024 8:34:38 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:38 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
+INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@36b08876
 java.lang.Exception
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:387)
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.isActive(TokenHierarchyOperation.java:343)
@@ -2286,8 +2290,8 @@ java.lang.Exception
 	at org.netbeans.junit.NbTestCase$1Guard.run(NbTestCase.java:405)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-May 27, 2024 4:41:04 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureWriteLocked
-INFO: !!WARNING!! Missing WRITE-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@67d1dbb8
+May 27, 2024 8:34:38 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureWriteLocked
+INFO: !!WARNING!! Missing WRITE-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@36b08876
 java.lang.Exception
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureWriteLocked(TokenHierarchyOperation.java:400)
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.textModified(TokenHierarchyOperation.java:574)
@@ -2329,8 +2333,8 @@ java.lang.Exception
 	at org.netbeans.junit.NbTestCase$1Guard.run(NbTestCase.java:405)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-May 27, 2024 4:41:04 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
-INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@67d1dbb8
+May 27, 2024 8:34:38 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
+INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@36b08876
 java.lang.Exception
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:387)
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.isActive(TokenHierarchyOperation.java:343)
@@ -2373,16 +2377,20 @@ java.lang.Exception
 	at org.netbeans.junit.NbTestCase$1Guard.run(NbTestCase.java:405)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 173 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:38 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 146 ms.
+May 27, 2024 8:34:38 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 100 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:38 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 128 ms.
+May 27, 2024 8:34:38 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:04 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
-INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@31b2933e
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 146 ms.
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:39 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
+INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@30849530
 java.lang.Exception
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:387)
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.isActive(TokenHierarchyOperation.java:343)
@@ -2426,8 +2434,8 @@ java.lang.Exception
 	at org.netbeans.junit.NbTestCase$1Guard.run(NbTestCase.java:405)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-May 27, 2024 4:41:04 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureWriteLocked
-INFO: !!WARNING!! Missing WRITE-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@31b2933e
+May 27, 2024 8:34:39 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureWriteLocked
+INFO: !!WARNING!! Missing WRITE-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@30849530
 java.lang.Exception
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureWriteLocked(TokenHierarchyOperation.java:400)
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.textModified(TokenHierarchyOperation.java:574)
@@ -2466,62 +2474,62 @@ java.lang.Exception
 	at org.netbeans.junit.NbTestCase$1Guard.run(NbTestCase.java:405)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 94 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 122 ms.
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 115 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 120 ms.
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 96 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 164 ms.
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 104 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 132 ms.
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 89 ms.
-May 27, 2024 4:41:04 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 152 ms.
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 144 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 135 ms.
+May 27, 2024 8:34:39 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 126 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 136 ms.
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 93 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 146 ms.
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 101 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 124 ms.
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 104 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 123 ms.
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 88 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 231 ms.
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 81 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 134 ms.
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:05 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
-INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@24344b77
+May 27, 2024 8:34:40 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
+INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@3c5888cb
 java.lang.Exception
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:387)
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.isActive(TokenHierarchyOperation.java:343)
 	at org.netbeans.api.lexer.TokenHierarchy.isActive(TokenHierarchy.java:306)
 	at org.netbeans.modules.parsing.nb.EventSupport$DocListener.insertUpdate(EventSupport.java:219)
-	at java.base/jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.openide.util.WeakListenerImpl$ProxyListener.invoke(WeakListenerImpl.java:461)
@@ -2561,80 +2569,84 @@ java.lang.Exception
 	at org.netbeans.junit.NbTestCase$1Guard.run(NbTestCase.java:405)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 174 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 127 ms.
+May 27, 2024 8:34:40 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 98 ms.
-May 27, 2024 4:41:05 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 136 ms.
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 98 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 120 ms.
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 92 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 114 ms.
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 94 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 61 ms.
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 81 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 137 ms.
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 46 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 134 ms.
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 102 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
 INFO: Indexing started, time from last indexing 119 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 93 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 126 ms.
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 95 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 125 ms.
+May 27, 2024 8:34:41 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 84 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 136 ms.
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 82 ms.
-May 27, 2024 4:41:06 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 115 ms.
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 82 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 121 ms.
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 103 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 118 ms.
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 105 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 121 ms.
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 80 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 134 ms.
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 84 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 116 ms.
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:07 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
-INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@7bbbfd44
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 121 ms.
+May 27, 2024 8:34:42 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 133 ms.
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:43 PM org.netbeans.lib.lexer.TokenHierarchyOperation ensureReadLocked
+INFO: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.openide.text.FilterDocument@7c43ad5f
 java.lang.Exception
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:387)
 	at org.netbeans.lib.lexer.TokenHierarchyOperation.isActive(TokenHierarchyOperation.java:343)
@@ -2679,143 +2691,143 @@ java.lang.Exception
 	at org.netbeans.junit.NbTestCase$1Guard.run(NbTestCase.java:405)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 84 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 158 ms.
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 100 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 145 ms.
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 107 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 138 ms.
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 103 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 124 ms.
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 98 ms.
-May 27, 2024 4:41:07 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 211 ms.
+May 27, 2024 8:34:43 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 101 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 149 ms.
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 98 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 141 ms.
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 123 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 277 ms.
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 107 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 105 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 123 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 95 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 86 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 91 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 38 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$RootsWork getDone
-INFO: Resolving dependencies took: 8 ms
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$AbstractRootsWork scanBinaries
-INFO: Complete indexing of 0 binary roots took: 1 ms
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$AbstractRootsWork scanSources
-INFO: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 15 ms.
-May 27, 2024 4:41:08 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
 INFO: Indexing started, time from last indexing 1 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 201 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 120 ms.
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 132 ms.
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 239 ms.
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
 INFO: Indexing started, time from last indexing 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:44 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 124 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 73 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$RootsWork getDone
+INFO: Resolving dependencies took: 8 ms
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$AbstractRootsWork scanBinaries
+INFO: Complete indexing of 0 binary roots took: 0 ms
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$AbstractRootsWork scanSources
+INFO: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 18 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
 INFO: Indexing started, time from last indexing 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 203 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 0 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 23 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 0 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 84 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 90 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 104 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 101 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 88 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
-INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
 INFO: Indexing started, time from last indexing 87 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 84 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 122 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 103 ms.
-May 27, 2024 4:41:09 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 122 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 261 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 129 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 90 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 119 ms.
+May 27, 2024 8:34:45 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 86 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 144 ms.
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 96 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 300 ms.
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 88 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 136 ms.
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
-INFO: Indexing started, time from last indexing 94 ms.
-May 27, 2024 4:41:10 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 120 ms.
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 122 ms.
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 118 ms.
+May 27, 2024 8:34:46 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:47 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 144 ms.
+May 27, 2024 8:34:47 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:47 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 136 ms.
+May 27, 2024 8:34:47 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:47 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 130 ms.
+May 27, 2024 8:34:47 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
+INFO: Indexing finished, indexing took 0 ms.
+May 27, 2024 8:34:47 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexingStart
+INFO: Indexing started, time from last indexing 128 ms.
+May 27, 2024 8:34:47 PM org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater$Work reportIndexerStatistics
 INFO: Indexing finished, indexing took 0 ms.
 ]]></system-err>
 </testsuite>

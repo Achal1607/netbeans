@@ -127,8 +127,18 @@ public class VariablesTableModel implements TableModel, Constants {
         if ( LOCALS_TYPE_COLUMN_ID.equals (columnID) ||
              WATCH_TYPE_COLUMN_ID.equals (columnID)
         ) {
-            if (row instanceof Variable)
-                return getShort (((Variable) row).getType ());
+            if (row instanceof Variable variableRow) {
+                String type = getShort(variableRow.getType());
+                String runtimeType = null;
+                if (row instanceof ObjectVariable objectVariable) {
+                    runtimeType = getShort(objectVariable.getClassType().getName());
+                }
+                if (runtimeType == null || type.equals(runtimeType)) {
+                    return type;
+                }
+
+                return type + " (" + runtimeType + ")";
+            }
             if (row instanceof javax.swing.JToolTip) {
                 row = ((javax.swing.JToolTip) row).getClientProperty("getShortDescription");
                 if (row instanceof Variable) {

@@ -118,6 +118,7 @@ import org.netbeans.modules.csl.api.IndexSearcher;
 import org.netbeans.modules.editor.indent.spi.CodeStylePreferences;
 import org.netbeans.modules.gsf.testrunner.ui.api.TestMethodController;
 import org.netbeans.modules.gsf.testrunner.ui.api.TestMethodFinder;
+import org.netbeans.modules.maven.options.MavenSettings;
 import org.netbeans.modules.java.hints.spi.preview.PreviewEnabler;
 import org.netbeans.modules.java.hints.spi.preview.PreviewEnabler.Factory;
 import org.netbeans.modules.java.lsp.server.LspServerState;
@@ -1422,6 +1423,9 @@ public final class WorkspaceServiceImpl implements WorkspaceService, LanguageCli
 
         BiConsumer<String, JsonElement> projectJdkHomeListener = (config, newValue)
                 -> ((TextDocumentServiceImpl) server.getTextDocumentService()).updateProjectJDKHome(newValue.getAsJsonPrimitive());
+
+        BiConsumer<String, JsonElement> mavenSettingsListener = (config, newValue)
+                -> updateMavenSettings(newValue != null && newValue.isJsonObject() ? newValue.getAsJsonObject() : null);
         
         
         
@@ -1429,6 +1433,7 @@ public final class WorkspaceServiceImpl implements WorkspaceService, LanguageCli
         confManager.registerConfigChangeListener(fullConfigPrefix + "project.jdkhome", projectJdkHomeListener);
         confManager.registerConfigChangeListener(fullConfigPrefix + "format", formatPrefsListener);
         confManager.registerConfigChangeListener(fullConfigPrefix + "java.imports", importPrefsListener);
+        confManager.registerConfigChangeListener(fullConfigPrefix + "maven", mavenSettingsListener);
         confManager.registerConfigChangeListener(fullAltConfigPrefix + "runConfig", getRunConfigChangeListener());
     }
 
@@ -1459,6 +1464,17 @@ public final class WorkspaceServiceImpl implements WorkspaceService, LanguageCli
             prefs.putBoolean("allowConvertToStaticStarImport", true);
             prefs.putInt("countForUsingStaticStarImport", configuration.getAsJsonPrimitive("countForUsingStaticStarImport").getAsInt());
         }
+    }
+
+    void updateMavenSettings(JsonObject configuration) {
+        String settingsPath = null;
+        if (configuration != null) {
+            JsonElement pathElement = configuration.get("settingsPath");
+            if (pathElement != null && pathElement.isJsonPrimitive()) {
+                settingsPath = pathElement.getAsString();
+            }
+        }
+        MavenSettings.getDefault().setUserSettingsFilePath(settingsPath);
     }
 
     @NbBundle.Messages({

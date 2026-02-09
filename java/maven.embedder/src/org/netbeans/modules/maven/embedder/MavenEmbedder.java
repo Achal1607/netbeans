@@ -200,7 +200,9 @@ public final class MavenEmbedder {
             return testSettings; // could instead make public void setSettings(Settings settingsOverride)
         }
         File settingsXml = embedderConfiguration.getSettingsXml();
-        long newSettingsTimestamp = settingsXml.hashCode() ^ settingsXml.lastModified() ^ SettingsXmlConfigurationProcessor.DEFAULT_USER_SETTINGS_FILE.lastModified();
+        File userSettings = getEffectiveUserSettingsFile();
+        long newSettingsTimestamp = settingsXml.hashCode() ^ settingsXml.lastModified()
+                ^ (userSettings != null ? userSettings.hashCode() ^ userSettings.lastModified() : 0L);
         // could be included but currently constant: hashCode() of those files; getSystemProperties.hashCode()
         if (settings != null && settingsTimestamp == newSettingsTimestamp) {
             LOG.log(Level.FINER, "settings.xml cache hit for {0}", this);
@@ -209,7 +211,9 @@ public final class MavenEmbedder {
         LOG.log(Level.FINE, "settings.xml cache miss for {0}", this);
         SettingsBuildingRequest req = new DefaultSettingsBuildingRequest();
         req.setGlobalSettingsFile(settingsXml);
-        req.setUserSettingsFile(SettingsXmlConfigurationProcessor.DEFAULT_USER_SETTINGS_FILE);
+        if (userSettings != null && userSettings.exists()) {
+            req.setUserSettingsFile(userSettings);
+        }
         req.setSystemProperties(getSystemProperties());
         req.setUserProperties(embedderConfiguration.getUserProperties());
         try {
@@ -586,8 +590,9 @@ public final class MavenEmbedder {
         if (settingsXml !=null && settingsXml.exists()) {
             req.setGlobalSettingsFile(settingsXml);
         }
-        if (SettingsXmlConfigurationProcessor.DEFAULT_USER_SETTINGS_FILE != null && SettingsXmlConfigurationProcessor.DEFAULT_USER_SETTINGS_FILE.exists()) {
-          req.setUserSettingsFile(SettingsXmlConfigurationProcessor.DEFAULT_USER_SETTINGS_FILE);
+        File userSettings = getEffectiveUserSettingsFile();
+        if (userSettings != null && userSettings.exists()) {
+          req.setUserSettingsFile(userSettings);
         }
         
         req.setSystemProperties(getSystemProperties());
@@ -607,6 +612,27 @@ public final class MavenEmbedder {
         req.setRepositoryCache(new NbRepositoryCache());
 
         return req;
+    }
+
+    private File getEffectiveUserSettingsFile() {
+        File override = getUserSettingsFileOverride();
+        if (override != null) {
+            return override;
+        }
+        return SettingsXmlConfigurationProcessor.DEFAULT_USER_SETTINGS_FILE;
+    }
+
+    private File getUserSettingsFileOverride() {
+        String settingsPath = System.getProperty(EmbedderFactory.PROP_USER_SETTINGS_OVERRIDE);
+        if (settingsPath == null) {
+            return null;
+        }
+        String trimmed = settingsPath.trim();
+        if (trimmed.isEmpty()) {
+            return null;
+        }
+        File candidate = FileUtil.normalizeFile(new File(trimmed));
+        return candidate.isFile() && candidate.canRead() ? candidate : null;
     }
     
     /**

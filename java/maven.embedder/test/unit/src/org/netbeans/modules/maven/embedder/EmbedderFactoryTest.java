@@ -36,6 +36,7 @@ import org.netbeans.junit.NbTestCase;
 import org.openide.util.NbPreferences;
 import org.openide.util.test.MockLookup;
 import org.openide.util.test.TestFileUtils;
+import org.openide.filesystems.FileUtil;
 
 public class EmbedderFactoryTest extends NbTestCase {
     
@@ -167,6 +168,20 @@ public class EmbedderFactoryTest extends NbTestCase {
         assertEquals(System.getProperty("java.home"), p.getProperty("java.home"));
         assertEquals(System.getenv("PATH"), p.getProperty("env.PATH"));
         // XXX perhaps -Dkey=value (and -Dkey) should be honored in "Global Execution Options"?
+    }
+
+    public void testUserSettingsOverride() throws Exception {
+        File settings = TestFileUtils.writeFile(new File(getWorkDir(), "settings.xml"),
+                "<settings xmlns='http://maven.apache.org/SETTINGS/1.0.0'/>");
+        System.setProperty(EmbedderFactory.PROP_USER_SETTINGS_OVERRIDE, settings.getAbsolutePath());
+        try {
+            MavenEmbedder embedder = EmbedderFactory.getProjectEmbedder();
+            MavenExecutionRequest req = embedder.createMavenExecutionRequest();
+            assertEquals(FileUtil.normalizeFile(settings), req.getUserSettingsFile());
+        } finally {
+            System.clearProperty(EmbedderFactory.PROP_USER_SETTINGS_OVERRIDE);
+            EmbedderFactory.resetCachedEmbedders();
+        }
     }
     
     public void testCustomProperties() throws Exception {

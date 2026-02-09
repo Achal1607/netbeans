@@ -37,6 +37,7 @@ import java.util.Set;
 import java.util.WeakHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.Objects;
 import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
 import java.util.regex.Pattern;
@@ -112,6 +113,19 @@ public final class MavenSettings  {
 
     public static MavenSettings getDefault() {
         return INSTANCE;
+    }
+
+    public void setUserSettingsFilePath(@CheckForNull String settingsPath) {
+        String normalized = settingsPath != null && !settingsPath.isBlank() ? settingsPath.trim() : null;
+        String oldValue = System.getProperty(EmbedderFactory.PROP_USER_SETTINGS_OVERRIDE);
+        if (normalized != null) {
+            System.setProperty(EmbedderFactory.PROP_USER_SETTINGS_OVERRIDE, normalized);
+        } else {
+            System.clearProperty(EmbedderFactory.PROP_USER_SETTINGS_OVERRIDE);
+        }
+        if (!Objects.equals(oldValue, normalized)) {
+            EmbedderFactory.resetCachedEmbedders();
+        }
     }
 
     public boolean isInteractive() {

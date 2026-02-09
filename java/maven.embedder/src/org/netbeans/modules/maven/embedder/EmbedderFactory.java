@@ -60,6 +60,7 @@ public final class EmbedderFactory {
     
     //same prop constant in MavenSettings.java
     static final String PROP_DEFAULT_OPTIONS = "defaultOptions"; 
+    public static final String PROP_USER_SETTINGS_OVERRIDE = "netbeans.maven.userSettings"; // NOI18N
     private static final Set<String> forbidden = Set.of(
         "netbeans.logger.console", //NOI18N
         "java.util.logging.config.class", //NOI18N

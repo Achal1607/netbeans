@@ -353,10 +353,12 @@ public final class MavenProjectCache {
         
         try {
             List<String> mavenConfigOpts = Collections.emptyList();
+            FileObject mavenConfigRoot = null;
             for (FileObject root = projectDir; root != null; root = root.getParent()) {
                 FileObject mavenConfig = root.getFileObject(".mvn/maven.config");
                 if (mavenConfig != null && mavenConfig.isData()) {
                     mavenConfigOpts = Arrays.asList(mavenConfig.asText().split("\\s+"));
+                    mavenConfigRoot = root;
                     LOG.log(Level.FINE, "Found maven config options: {0}", mavenConfigOpts);
                     break;
                 }
@@ -365,6 +367,7 @@ public final class MavenProjectCache {
             req.addActiveProfiles(active.getActivatedProfiles());
             BiConsumer<String, String> addActiveProfiles = (opt, prefix) -> req.addActiveProfiles(Arrays.asList(opt.substring(prefix.length()).split(",")));
             Iterator<String> optIt = mavenConfigOpts.iterator();
+            File settingsFile = findSettingsFile(mavenConfigRoot, mavenConfigOpts);
             while (optIt.hasNext()) {
                 String opt = optIt.next();
                 // Could try to write/integrate a more general option parser here,
@@ -376,6 +379,9 @@ public final class MavenProjectCache {
                 } else if (opt.startsWith("--activate-profiles=")) {
                     addActiveProfiles.accept(opt, "--activate-profiles=");
                 }
+            }
+            if (settingsFile != null) {
+                req.setUserSettingsFile(settingsFile);
             }
             if (runConf != null) {
                 req.addActiveProfiles(runConf.getActivatedProfiles());
@@ -528,6 +534,41 @@ public final class MavenProjectCache {
             props.putAll(activeConfiguration);
         }
         return props;
+    }
+
+    static File findSettingsFile(FileObject mavenConfigRoot, List<String> mavenConfigOpts) {
+        if (mavenConfigOpts == null || mavenConfigOpts.isEmpty()) {
+            return null;
+        }
+        Iterator<String> optIt = mavenConfigOpts.iterator();
+        while (optIt.hasNext()) {
+            String opt = optIt.next();
+            if (opt.equals("-s") || opt.equals("--settings")) {
+                if (optIt.hasNext()) {
+                    return resolveSettingsFile(mavenConfigRoot, optIt.next());
+                }
+            } else if (opt.startsWith("-s") && opt.length() > 2) {
+                String settingsPath = opt.startsWith("-s=") ? opt.substring(3) : opt.substring(2);
+                return resolveSettingsFile(mavenConfigRoot, settingsPath);
+            } else if (opt.startsWith("--settings=")) {
+                return resolveSettingsFile(mavenConfigRoot, opt.substring("--settings=".length()));
+            }
+        }
+        return null;
+    }
+
+    private static File resolveSettingsFile(FileObject mavenConfigRoot, String settingsPath) {
+        if (settingsPath == null || settingsPath.isEmpty()) {
+            return null;
+        }
+        File resolved = new File(settingsPath);
+        if (!resolved.isAbsolute() && mavenConfigRoot != null) {
+            File rootFile = FileUtil.toFile(mavenConfigRoot);
+            if (rootFile != null) {
+                resolved = new File(rootFile, settingsPath);
+            }
+        }
+        return resolved;
     }
     
     

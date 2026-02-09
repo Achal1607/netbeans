@@ -116,7 +116,10 @@ public final class MavenSettings  {
     }
 
     public void setUserSettingsFilePath(@CheckForNull String settingsPath) {
-        String normalized = settingsPath != null && !settingsPath.isBlank() ? settingsPath.trim() : null;
+        String normalized = settingsPath != null ? settingsPath.trim() : null;
+        if (normalized != null && normalized.isEmpty()) {
+            normalized = null;
+        }
         String oldValue = System.getProperty(EmbedderFactory.PROP_USER_SETTINGS_OVERRIDE);
         if (normalized != null) {
             System.setProperty(EmbedderFactory.PROP_USER_SETTINGS_OVERRIDE, normalized);
